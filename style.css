@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: rgb(119, 85, 85);
+  color: rgb(169, 157, 157);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero */
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid cyan;
+  box-shadow: 0 0 20px cyan;
+}
+h1 {
+  font-size: 50px;
+  color: cyan;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+h2 {
+  color: white;
+  text-shadow: 0 0 5px cyan;
+}
+button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid cyan;
+  color: cyan;
+  cursor: pointer;
+  box-shadow: 0 0 10px cyan;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: cyan;
+  color: black;
+  box-shadow: 0 0 20px cyan;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  padding: 50px;
+  text-align: center;
+}
+
+.skill {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid cyan;
+  border-radius: 20px;
+  box-shadow: 0 0 10px cyan;
+}
+.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.contact a {
+  display: inline-block;
+  margin: 10px;
+  color: cyan;
+  text-decoration: none;
+  border: 1px solid cyan;
+  padding: 10px;
+  box-shadow: 0 0 10px cyan;
+}
+
+/* Sections */
+.about, .projects {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Projects */
+.project {
+  border: 1px solid cyan;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+}
+
+/* Background */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
